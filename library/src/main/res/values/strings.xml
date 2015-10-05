@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="LogoTextViewText">Material Persistent Search</string>
+    <string name="speak_now">Speak now</string>
+</resources>

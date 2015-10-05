@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/material_single_item_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:paddingEnd="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:paddingStart="3dp"/>
+
+    <TextView
+        android:id="@+id/material_single_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="62dp"
+        android:layout_marginStart="62dp"
+        android:layout_toLeftOf="@+id/material_single_item_up"
+        android:layout_toStartOf="@+id/material_single_item_up"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#212121"/>
+
+    <ImageView
+        android:id="@+id/material_single_item_up"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center|end"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:src="@drawable/ic_up"/>
+
+    <View
+        android:id="@+id/material_single_item_border"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#E8E8E8"/>
+
+</RelativeLayout>
